@@ -2,16 +2,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import {useState} from 'react';
 import { MdDeleteOutline, MdEdit} from "react-icons/md";
 import { Button,Modal} from 'react-bootstrap';
+import "./DimensionTable.css";
 
 function DimensionTable() {
-
     const [show, setShow] = useState(false);
-
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
   return (
 
-       <div class="container ">
+       <div style={{display:'block', width: 900}}class="container">
           <div className="crud shadow-lg p-3 mb-5 mt-5 bg-body rounded"> 
           <div class="row ">
           

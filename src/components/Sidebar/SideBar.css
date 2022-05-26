@@ -46,6 +46,7 @@
   transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .link:hover {
+  color: white;
   border-left: 1px solid rgba(241, 195, 135, 0.5);
   background: #FCB37E;
   border-radius: 12px;
