@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+}
+
+main {
+  padding: 10px;
+  color: #0D0E76; 
+}
+
+.title {
+  font-size: 2.5em;
+  place-items: center;
+}
+.title-disabled {
+  color: #0d0f768c; 
+}
