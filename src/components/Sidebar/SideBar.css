@@ -5,7 +5,6 @@
   color: white;
   height: 100vh;
   overflow-y: auto;
-  cursor: pointer;
 }
 
 .top_section {
@@ -44,6 +43,7 @@
   padding: 10px 15px;
   border-radius: 12px;
   transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  cursor: pointer;
 }
 .link:hover {
   color: white;
@@ -65,6 +65,7 @@
   color: white;
   padding: 20px 15px;
   justify-content: space-between;
+  cursor: pointer;
 } 
 
 .menu_item {

@@ -1,5 +1,9 @@
-const Forms = () => {
-  return <div className="title">Forms</div>;
+import QuestionList from "../components/Form/QuestionList"
+
+const Form = () => {
+return <><div className="title">Form</div><div className="component">
+  <QuestionList />
+</div></>
 };
 
-export default Forms;
+export default Form;

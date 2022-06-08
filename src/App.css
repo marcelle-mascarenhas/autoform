@@ -6,17 +6,23 @@
 
 .main-container {
   display: flex;
+  
 }
 
 main {
+  display: flex;
   padding: 10px;
   color: #0D0E76; 
+  margin-bottom: 15em;
 }
 
 .title {
   font-size: 2.5em;
-  place-items: center;
 }
 .title-disabled {
   color: #0d0f768c; 
+}
+
+.component{
+  margin-top: 4em;
 }
