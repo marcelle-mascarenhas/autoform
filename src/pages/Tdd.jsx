@@ -1,10 +1,10 @@
-import HeaderTdd from "../components/Tdd/HeaderTdd"
+import CreateTdd from "../components/Tdd/CreateTdd"
 
-const CreateTdd= () => {
+const Tdd= () => {
 return <div className="container-component"><div className="title">tdd</div>
 <div className="component">
-  <HeaderTdd /></div></div>
+  <CreateTdd /></div></div>
 };
 
-export default CreateTdd;
+export default Tdd;
 
