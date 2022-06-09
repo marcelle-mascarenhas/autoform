@@ -1,5 +1,4 @@
 
-
 * {
   margin: 0;
   padding: 0;
@@ -22,8 +21,8 @@ main {
 .title {
   font-size: 2.2em;
   text-align:left;
-  margin-bottom: 1.2em;
-  margin-left: 0.3em;
+  margin-bottom: 1.4em;
+  margin-left: 0.5em;
 
 
 }
@@ -31,11 +30,7 @@ main {
   color: #0d0f768c; 
 }
 
-.conteiner-component{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 
 /* Sidebar */

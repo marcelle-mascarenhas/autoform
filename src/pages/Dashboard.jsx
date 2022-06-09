@@ -1,4 +1,5 @@
 const Dashboard = () => {
+    return <div className="title">Logout</div>;
   
 };
 
