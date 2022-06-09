@@ -71,7 +71,7 @@ const Forms = () => {
             </div>
 
             <div className="header text-center">
-                <Button variant="primary" style={{ borderColor: "#fa862f", background: "#fa862f", color: "#ffffff", fontSize: "20px", width: "60px", height: "60px", borderRadius: "100px", marginBottom: "20px" }} onClick={() => setModal(true)} > <MdAddCircleOutline size="1.6em" color="#ffffff" /></Button>
+                <Button variant="primary" style={{ borderColor: "#fa862f", background: "#fa862f", color: "#ffffff", fontSize: "20px", width: "60px", height: "60px", borderRadius: "100px", marginBottom: "20px", marginTop: "20px" }} onClick={() => setModal(true)} > <MdAddCircleOutline size="1.6em" color="#ffffff" /></Button>
             </div>
 
             <div className="question-container">
