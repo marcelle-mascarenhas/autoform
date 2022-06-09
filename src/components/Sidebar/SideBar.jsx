@@ -12,12 +12,12 @@ const routes = [
   {
     path: "/",
     name: "Dashboard",
-    icon: <MdOutlineDashboardCustomize size="1.3em" />,
+    icon: <MdOutlineDashboardCustomize size="1.4em" />,
   },
   {
     path: "/register",
     name: "Register",
-    icon: <BiEdit size="1.3em" />,
+    icon: <BiEdit size="1.4em" />,
     subRoutes: [
       {
         path: "register/dimensions",
@@ -37,23 +37,23 @@ const routes = [
   {
     path: "/tdd",
     name: "Tdd",
-    icon: <BiScan size="1.3em" />,
+    icon: <BiScan size="1.4em" />,
 
   },
   {
     path: "/forms",
     name: "Forms",
-    icon: <FaWpforms size="1.3em" />,
+    icon: <FaWpforms size="1.4em" />,
   },
   {
     path: "/reports",
     name: "Reports",
-    icon: <BiBarChartSquare size="1.3em" />,
+    icon: <BiBarChartSquare size="1.4em" />,
   },
   {
     path: "/logout",
     name: "Logout",
-    icon: < BiLogOut size="1.3em" />,
+    icon: < BiLogOut size="1.4em" />,
   }
 ];
 

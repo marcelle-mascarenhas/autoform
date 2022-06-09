@@ -25,6 +25,7 @@
 }
 .bars {
   width: 30px;
+  cursor: pointer;
 }
 .hide {
   display: none;
@@ -41,23 +42,24 @@
   color: white;
   gap: 10px;
   padding: 10px 15px;
-  border-radius: 12px;
   transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
   cursor: pointer;
+  text-decoration: none;
 }
 .link:hover {
   color: white;
-  border-left: 1px solid rgba(241, 195, 135, 0.5);
   background: #FCB37E;
-  border-radius: 12px;
   transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  
+
 }
 .active { 
   background: #FCB37E;
+  border-right: 4px solid rgb(255, 255, 255);
 }
 .link_text {
   white-space: nowrap;
-  font-size: 1em;
+  font-size: 1.4em;
 }
 
 .menu {
